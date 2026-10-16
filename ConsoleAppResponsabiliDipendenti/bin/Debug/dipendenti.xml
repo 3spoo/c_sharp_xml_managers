@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<dipendenti>
+    <dipendente>
+    	<nominativo>Marcello Gagliardini</nominativo>
+        <matricola>37107</matricola>
+		<codice_responsabile>MD</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Andrea Losapio</nominativo>
+        <matricola>39041</matricola>
+		<codice_responsabile>MD</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Alessandra Sibilini</nominativo>
+        <matricola>29871</matricola>
+		<codice_responsabile>MD</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Stefania Rocca</nominativo>
+        <matricola>28491</matricola>
+		<codice_responsabile>AB</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Maria Bellini</nominativo>
+        <matricola>21831</matricola>
+		<codice_responsabile>AB</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Mirella Caldani</nominativo>
+        <matricola>31243</matricola>
+		<codice_responsabile>AB</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Paolo Bentivoglio</nominativo>
+        <matricola>34521</matricola>
+		<codice_responsabile>MM</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Martina Corio</nominativo>
+        <matricola>32777</matricola>
+		<codice_responsabile>MM</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Alessandra Callari</nominativo>
+        <matricola>33100</matricola>
+		<codice_responsabile>MM</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Maria Augusta Gollini</nominativo>
+        <matricola>34700</matricola>
+		<codice_responsabile>LP</codice_responsabile>
+    </dipendente>
+    <dipendente>
+    	<nominativo>Gianni Caso</nominativo>
+        <matricola>28900</matricola>
+		<codice_responsabile>LP</codice_responsabile>
+    </dipendente>
+</dipendenti>    
+    

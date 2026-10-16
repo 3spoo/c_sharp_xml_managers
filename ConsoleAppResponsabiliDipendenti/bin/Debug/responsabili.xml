@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<dirigenti_responsabili>
+    <dirigente>
+    	<nome>Mirko Donati</nome>
+        <area>Produzione</area>
+		<codifica>MD</codifica>
+    </dirigente>
+    <dirigente>
+    	<nome>Alessandro Bialetti</nome>
+        <area>Acquisti</area>
+		<codifica>AB</codifica>
+    </dirigente>
+    <dirigente>
+    	<nome>Mara Maselli</nome>
+        <area>Commerciale</area>
+		<codifica>MM</codifica>
+    </dirigente>    
+    <dirigente>
+    	<nome>Luca Porta</nome>
+        <area>Amministrazione</area>
+		<codifica>LP</codifica>
+    </dirigente>
+</dirigenti_responsabili>    
+    

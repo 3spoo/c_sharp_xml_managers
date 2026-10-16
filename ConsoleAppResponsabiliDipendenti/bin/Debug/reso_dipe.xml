@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<dirigenti_responsabili>
+  <dirigente>
+    <nome>Mirko Donati</nome>
+    <area>Produzione</area>
+    <codifica>MD</codifica>
+    <dipendenti>
+      <dipendente>
+        <nominativo>Marcello Gagliardini</nominativo>
+        <matricola>37107</matricola>
+      </dipendente>
+      <dipendente>
+        <nominativo>Andrea Losapio</nominativo>
+        <matricola>39041</matricola>
+      </dipendente>
+      <dipendente>
+        <nominativo>Alessandra Sibilini</nominativo>
+        <matricola>29871</matricola>
+      </dipendente>
+    </dipendenti>
+  </dirigente>
+  <dirigente>
+    <nome>Alessandro Bialetti</nome>
+    <area>Acquisti</area>
+    <codifica>AB</codifica>
+    <dipendenti>
+      <dipendente>
+        <nominativo>Stefania Rocca</nominativo>
+        <matricola>28491</matricola>
+      </dipendente>
+      <dipendente>
+        <nominativo>Maria Bellini</nominativo>
+        <matricola>21831</matricola>
+      </dipendente>
+      <dipendente>
+        <nominativo>Mirella Caldani</nominativo>
+        <matricola>31243</matricola>
+      </dipendente>
+    </dipendenti>
+  </dirigente>
+  <dirigente>
+    <nome>Mara Maselli</nome>
+    <area>Commerciale</area>
+    <codifica>MM</codifica>
+    <dipendenti>
+      <dipendente>
+        <nominativo>Paolo Bentivoglio</nominativo>
+        <matricola>34521</matricola>
+      </dipendente>
+      <dipendente>
+        <nominativo>Martina Corio</nominativo>
+        <matricola>32777</matricola>
+      </dipendente>
+      <dipendente>
+        <nominativo>Alessandra Callari</nominativo>
+        <matricola>33100</matricola>
+      </dipendente>
+    </dipendenti>
+  </dirigente>
+  <dirigente>
+    <nome>Luca Porta</nome>
+    <area>Amministrazione</area>
+    <codifica>LP</codifica>
+    <dipendenti>
+      <dipendente>
+        <nominativo>Maria Augusta Gollini</nominativo>
+        <matricola>34700</matricola>
+      </dipendente>
+      <dipendente>
+        <nominativo>Gianni Caso</nominativo>
+        <matricola>28900</matricola>
+      </dipendente>
+    </dipendenti>
+  </dirigente>
+</dirigenti_responsabili>
