@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,15 +15,16 @@ namespace ConsoleAppResponsabiliDipendenti
             const string FILE_DIP = "dipendenti.xml";
             const string FILE_RES_DIP = "reso_dipe.xml";
 
+            // FILE
             XmlDocument xdr = new XmlDocument();
             XmlDocument xdd = new XmlDocument();
 
-            // FILE
             xdr.Load(FILE_RES);
             xdd.Load(FILE_DIP);
 
             foreach (XmlNode responsabile in xdr.DocumentElement.ChildNodes)
             {
+                // SOVRASCRIVE LA STRUTTURA DEL FILE 'responsabili.xml'
                 XmlNode node_dipendenti = xdr.CreateElement("dipendenti");
                 responsabile.AppendChild(node_dipendenti);
 
@@ -53,6 +54,7 @@ namespace ConsoleAppResponsabiliDipendenti
                 }
             }
 
+            // SALVATAGGIO SUL FILE OUTPUT
             xdr.Save(FILE_RES_DIP);
         }
     }
