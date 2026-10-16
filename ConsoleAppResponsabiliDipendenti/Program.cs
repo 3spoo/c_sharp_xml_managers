@@ -14,7 +14,7 @@ namespace ConsoleAppResponsabiliDipendenti
             const string FILE_RES = "responsabili.xml";
             const string FILE_DIP = "dipendenti.xml";
             const string FILE_RES_DIP = "reso_dipe.xml";
-
+            
             // FILE
             XmlDocument xdr = new XmlDocument();
             XmlDocument xdd = new XmlDocument();
@@ -41,12 +41,17 @@ namespace ConsoleAppResponsabiliDipendenti
                             ...
                         */
 
+                        // CREAZIONE XML_NODE
                         XmlNode dipendente_tmp = xdr.CreateElement("dipendente");
+
+                            // ASSEGNAZIONE VALORE XML_NODE
                             XmlNode nominativo = xdr.CreateElement("nominativo");
                             nominativo.InnerText = dipendente["nominativo"].InnerText;
+
                             XmlNode matricola = xdr.CreateElement("matricola");
                             matricola.InnerText = dipendente["matricola"].InnerText;
 
+                            // INSERIMENTO DEL XML_NODE
                             dipendente_tmp.AppendChild(nominativo);
                             dipendente_tmp.AppendChild(matricola);
                         node_dipendenti.AppendChild(dipendente_tmp);
